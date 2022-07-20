@@ -1,8 +1,14 @@
 <template>
-  <div class="about">
-   
-    <div id="aboutcard" class="container container-fluid">
+<div class="about">
+  <div class="uno">
+    <h1>About Ikhlaas..</h1>
+  </div>
+    
+    
+  <div class="ab container">
 
+    <div id="aboutcard" class="container container-fluid">
+      
       <div class="card-group">
         <div class="card ">
           <!-- <img src="..." class="card-img-top" alt="..."> -->
@@ -45,12 +51,14 @@
       </div>
     </div>
   </div>
+</div>
 </template>
 
 <style scoped>
 *{
   margin: 0; 
   padding: 0;
+  z-index: -3;
 }
 h1{
   text-align: center;
@@ -65,16 +73,12 @@ h1{
   display: flex;
   width: 800px;
   display: flex;
-  
-
-  
-  
-  
+ 
 }
-.about{
+.ab{
   display: flex;
   justify-content: center;
-  
+  margin-bottom: 150px;
   
 }
 .card{
@@ -86,5 +90,15 @@ h1{
 .card-body{
   padding: 10px;
 }
+h1{
+   text-align: center;
+   font-size: 70px;
+}
+.uno{
+  margin-bottom: 50px;
+}
+/* main{
+  height: 500px;
+} */
 
 </style>

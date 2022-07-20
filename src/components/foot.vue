@@ -17,7 +17,7 @@ export default {
     text-align: center;
     height: 10vh;
     color: rgb(253, 216, 141);
-    padding-top: 200px;
+    padding-top: 120px;
   
 }
 </style>

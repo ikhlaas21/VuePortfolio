@@ -1,7 +1,7 @@
 <template>
   <div id="contact">
 
-      <div class="container  ">
+      <div class="container container-fluid  ">
           <div class="row justify-content-center">
               <div class="col-12 text-center">
                   <div class="container-title text-center mb-4">
@@ -107,6 +107,9 @@ export default {
 </script>
 
 <style scoped>
+*{
+    z-index: -3;
+}
 .container{
     width: 800px
 }

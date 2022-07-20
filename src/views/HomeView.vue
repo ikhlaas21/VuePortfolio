@@ -8,6 +8,8 @@
           data-type='[ "An Aspiring Web Developer 🤩", "I Love 3D Printing 💕", "" ]' />
         <span class="wrap"></span>
         </h3>
+        <br>
+        <br>
         
       
     </div>
@@ -30,6 +32,9 @@ export default {
 </script>
 
 <style scoped>
+*{
+  z-index: -3;
+  }
 
 h1{
   text-align: center;

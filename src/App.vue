@@ -4,10 +4,10 @@
     <navbar-vue></navbar-vue>
   <div class="move">
         <div class="icons">
-          <a href="https://github.com/ikhlaas21"><i class="bi bi-github"></i> </a>
-          <a href="https://www.instagram.com/ikhlaas21/"><i class="bi bi-instagram"></i></a>
-          <a href="https://www.linkedin.com/in/ikhlaas-rawoot-531a71201/"><i class="bi bi-linkedin"></i></a>
-          <a href="https://seranking.com/blog/wp-content/uploads/2021/01/404_01-min.jpg"><i class="bi bi-twitter"></i></a>
+          <a href="https://github.com/ikhlaas21" target="blank"><i class="bi bi-github"></i> </a>
+          <a href="https://www.instagram.com/ikhlaas21/" target="blank"><i class="bi bi-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/ikhlaas-rawoot-531a71201/" target="blank"><i class="bi bi-linkedin"></i></a>
+          <a href="https://seranking.com/blog/wp-content/uploads/2021/01/404_01-min.jpg" target="blank"><i class="bi bi-twitter"></i></a>
         </div>
 
       </div>
@@ -48,6 +48,7 @@ export default{
     position: relative;
      overflow-x: hidden;
   overflow-y: hidden;
+  z-index: 0;
   
 }
 .icons{
@@ -60,7 +61,7 @@ export default{
   /* flex-direction: column; */
   color: rgb(253, 216, 141) ;
   background-color: #800000 ;
-  z-index: 2;
+  z-index: 10;
   border: solid rgb(253, 216, 141)5px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
@@ -84,9 +85,25 @@ export default{
   justify-content: flex-end;
   position: fixed;
   right: 0;
-  bottom: 10%
+  bottom: 5%;
+  z-index:50;
+  
+}
+@media  (max-width:321px){
+  .move{
+    bottom: 2px;
+  }
+  .icons{
+height: 200px;
+  }
+  
 }
 
+/* :root{
+  --background-color: #fffaff;
+  --text-color:#333;
+
+} */
 
 
 </style>
