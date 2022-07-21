@@ -19,13 +19,13 @@
           <br>
             <p class="card-text">
               <ul id="aboutlist">
-                <li>Full name: Ikhlaas Ahmed Rawoot</li>
-                <li>Date of birth: 21/08/2002</li>
-                <li> Gender: Male</li>
-                <li>Location: Grassy Park</li>
-                <li>Cell Phone number: 072 086 1768</li>
-                <li>Email Address: ikhlaas21.rawoot@gmail.com</li>
-                <li>Willing to Relocate: No</li>
+                <li><b>Full name:</b> Ikhlaas Ahmed Rawoot</li>
+                <li><b>Date of birth:</b> 21/08/2002</li>
+                <li><b>Gender:</b> Gender: Male</li>
+                <li><b>Location:</b> Grassy Park</li>
+                <li><b>Cell Phone number:</b> 072 086 1768</li>
+                <li><b>Email Address:</b> ikhlaas21.rawoot@gmail.com</li>
+                <li><b>Willing to Relocate:</b> No</li>
               </ul>
             </p>
 
@@ -38,8 +38,8 @@
                 data-type='[ "Bio" ]' />
               <span class="wrap"></span>
               </h5>
-              <br>
-            <p class="card-text">I enjoy the company of others and have excellent teamwork skills. Although I am a team
+              
+            <p class="card-text pt-1">I enjoy the company of others and have excellent teamwork skills. Although I am a team
               player, I also have the ability to take the lead when necessary. I see failure as a lesson learnt and
               never shy from trying again. I would like to think that I am resilient and hardworking. I am extremely
               passionate about modern technology and have recently started a 3D printing business with my brother. In 3D
@@ -68,7 +68,7 @@ h1{
     
 }
 #aboutcard{
-  
+ 
   height: 35vh;
   display: flex;
   width: 800px;
@@ -84,9 +84,14 @@ h1{
 .card{
   background-color:rgb(253, 216, 141);
   border: solid 3px maroon;
-  height: 300px;
+  height: 330px;
 }
+.card-text{
+   padding:10px;
+   font-size: 17px;
+   
 
+}
 .card-body{
   padding: 10px;
 }
@@ -97,8 +102,7 @@ h1{
 .uno{
   margin-bottom: 50px;
 }
-/* main{
-  height: 500px;
-} */
+
+
 
 </style>

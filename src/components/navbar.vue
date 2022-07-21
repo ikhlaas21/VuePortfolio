@@ -16,9 +16,9 @@
                 <hr>
                 <router-link to="/resume">Resume</router-link>
                 <hr>
-                <router-link to="/about">Skills</router-link>
+                <router-link to="/skills">Skills</router-link>
                 <hr>
-                <router-link to="/about">Testimonials</router-link>
+                <router-link to="/testimonials">Testimonials</router-link>
                 <hr>
                 <router-link to="/">Projects</router-link>
                 <hr>
@@ -112,7 +112,7 @@ nav {
     height: 100vh;
     width: 180px;
     font-size: larger;
-    position: absolute;
+   
      z-index: 1;
 }
 
@@ -140,7 +140,7 @@ a:hover {
     height: 55px;
     padding: 0;
     padding-top: 10px;
-    padding-left: 15px;
+    padding-left: 9px;
     transition: 0.5s;
 }
 

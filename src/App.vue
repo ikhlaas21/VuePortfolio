@@ -12,6 +12,14 @@
 
       </div>
   </div>
+  <!-- <main>
+        <router-view v-slot="{ Component }">
+            <transition name="route" mode="out-in">
+                <component :is="Component"></component>
+            </transition>
+        </router-view>
+
+    </main> -->
 </template>
 <script>
 import navbarVue from "./components/navbar.vue";
@@ -26,7 +34,7 @@ export default{
 </script>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 *{
   margin: 0; 
   padding: 0;
@@ -47,7 +55,7 @@ export default{
     background-attachment: fixed;
     position: relative;
      overflow-x: hidden;
-  overflow-y: hidden;
+  /* overflow-y: hidden; */
   z-index: 0;
   
 }

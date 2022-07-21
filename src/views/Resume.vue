@@ -5,7 +5,7 @@
 	<div class="overlay">
 		<div class="overlay-content animate slide-left delay-2">
 			<h2 class="animate slide-left pop delay-4">Resume</h2>
-			<p class="animate slide-left pop delay-5" style="color: rgb(253, 216, 141); margin-bottom: 2.5rem; margin-left: 0.4rem;">Hover <em>Here</em></p>
+			<p class="animate slide-left pop delay-5" style=" margin-bottom: 2.5rem; margin-left: 0.4rem;">Hover <em>Here</em></p>
 		</div>
 		<div class="image-content animate slide delay-5"></div>
 		<!-- <div class="dots animate">
@@ -16,18 +16,17 @@
 	</div>
 	<div class="text">
         
-        <h1>Work Experience</h1>
-		 <h5>-PRINGLE OF SCOTLAND</h5>
-             Worked in retail as a Sales Assistant(Casual)
-                - December 2021 to January 2022
-                <hr>
-        
-        <h5>-Life Choices Academy</h5>
-        Currently studying Web Development - 2022
+        <h3>Work Experience</h3>
+		 <h5>{{work[0].title}}</h5>
+             {{work[0].text}}
+        <hr>
+        <h3>Education</h3>
+        <h5>{{education[0].title}}</h5>
+        {{education[0].text}}
         <hr>
     
-        <h5>-Livingstone High School</h5>
-        Attended Livingstone for 5 years where I acquired my Matric Certificate - 2016 to 2020
+        <h5>{{education[1].title}}</h5>
+        {{education[1].text}}
             
 	</div>
 </div>
@@ -77,7 +76,15 @@
 
 <script>
 export default {
-
+     computed:{
+        work(){
+            return this.$store.state.work
+        },
+        education(){
+            return this.$store.state.education
+        }        
+       
+     }
 }
 </script>
 
@@ -95,6 +102,7 @@ p {
 	line-height: 1.4;
     text-shadow: 5px 5px 20px  black;
 	margin-bottom: 1.5rem;
+    color: rgb(253, 216, 141);
 }
 
 .wrap {
@@ -102,10 +110,12 @@ p {
 	flex-wrap: nowrap;
 	justify-content: space-between;
 	width: 85vmin;
-	height: 25em;
-	border: 8px solid;
-	border-image: linear-gradient(-50deg,maroon, rgb(253, 216, 141), maroon,rgb(253, 216, 141), maroon,rgb(253, 216, 141),maroon) 1;
+	height: 26em;
+	border: 8px solid maroon;
+    
+	/* border-image: linear-gradient(-50deg,maroon, rgb(253, 216, 141), maroon,rgb(253, 216, 141), maroon,rgb(253, 216, 141),maroon) 1; */
 	margin: 2rem auto;
+    border-radius: 10px;
 	transition: .3s ease-in-out;
 	position: relative;
 	overflow: hidden;
@@ -200,8 +210,13 @@ p {
 .wrap:hover .dots {
 	transform: translateX(1rem);
 }
-.wrap:hover .dots .dot {
-	background:rgb(253, 216, 141);
+.wrap:hover .delay-5 {
+	/* background:rgb(253, 216, 141); */
+    color: black;
+}
+
+.wrap:hover> .overlay > .overlay-content > p{
+    color: black
 }
 
 
