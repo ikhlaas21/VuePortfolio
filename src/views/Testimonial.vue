@@ -5,7 +5,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1 class="text-center pb-5">Reviews of our valuable clients</h1>
+                <h1 class="text-center pb-5">I made some changes</h1>
             </div>
 
             <div class="col-md-12 col-lg-4">
