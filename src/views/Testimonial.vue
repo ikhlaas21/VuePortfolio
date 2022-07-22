@@ -10,15 +10,13 @@
 
                     <div class="col-sm-12 col-lg-4">
                         <div class="pn_testimonial_box ">
-                            <p class="text-justify">Ikhlaas is one of the brightest and most generous people I know.
-                               <br> He is able to take the lead when necassary and
-                                 is also very considerate towards others in the workspace.
+                            <p class="text-justify">{{testimonial[0].text}}
                             </p>
 
-                            <div class="row pt-3">
+                            <div class="row pt-3 pb-2">
                                 <div class="col-sm-6 pn_review_profile"><img
-                                        src="https://desklib.com/static/src/assets/images/v2/profile_1.svg"
-                                        class="border-radius-12 float-right" alt="client image" /> <span> Charles
+                                        :src="testimonial[0].img "
+                                        class="border-radius-12 float-right" alt="client image" /> <span>{{testimonial[0].name}}
                                     </span> </div>
 
                             </div>
@@ -26,14 +24,12 @@
                     </div>
                     <div class="col-sm-12 col-lg-4 pt-1">
                         <div class="pn_testimonial_box mt-4">
-                            <p class="text-justify">Ikhlaas has a passion for web development. 
-                                You can see it in his websites, they are alive and interactive. He is always ready to help at a moments notice and
-                                 any team would be lucky to have him.
+                            <p class="text-justify">{{testimonial[1].text}}
                             </p>
-                            <div class="row pt-3">
+                            <div class="row pt-3 pb-2">
                                 <div class="col-sm-6 pn_review_profile"><img
-                                        src="https://desklib.com/static/src/assets/images/v2/profile_2.svg"
-                                        class="border-radius-12 float-right" alt="client image" /> <span>Ra'ees Benny
+                                        :src="testimonial[1].img"
+                                        class="border-radius-12 float-right" alt="client image" /> <span>{{testimonial[1].name}}
                                     </span> </div>
 
                             </div>
@@ -41,13 +37,12 @@
                     </div>
                     <div class="col-sm-12 col-lg-4">
                         <div class="pn_testimonial_box mt-4">
-                            <p class="text-justify">Ikhlaas Rawoot is an outstanding person let alone aspiring web developer. 
-                                He works hard and he would be a great asset to anyone. He also has a great personality as well as great teamwork ability.
+                            <p class="text-justify">{{testimonial[2].text}}
                             </p>
-                            <div class="row pt-3">
+                            <div class="row pt-3 pb-2">
                                 <div class="col-sm-6 pn_review_profile"><img
-                                        src="https://desklib.com/static/src/assets/images/v2/profile_3.svg"
-                                        class="border-radius-12 float-right" alt="client image" /> <span>Cameron Stemmet
+                                        :src="testimonial[2].img"
+                                        class="border-radius-12 float-right" alt="client image" /> <span>{{testimonial[2].name}}
                                     </span> </div>
 
                             </div>
@@ -57,7 +52,10 @@
                 <br>
                 
             </div>
-                 <router-link to="/testimonial2"><button>View More</button></router-link>
+            <div class="button">
+                <router-link  to="/testimonial2"><button>View More</button></router-link>
+
+            </div>
         </section>
     </div>
 
@@ -65,6 +63,15 @@
 
 <script>
 export default {
+    computed:{
+        testimonial(){
+            return this.$store.state.testimonials
+        },
+        
+
+    }
+       
+     
 
 }
 </script>
@@ -109,6 +116,7 @@ button:hover{
     -moz-border-radius: 4rem;
     -ms-border-radius: 4rem;
     border-radius: 4rem;
+     max-height: 350px;
 
 }
 
@@ -142,7 +150,7 @@ button:hover{
 }
     .container {
         width: 250px;
-        margin-top: 880px;
+        margin-top: 680px;
 
     }
 
@@ -165,7 +173,7 @@ button:hover{
         -moz-border-radius: 4rem;
         -ms-border-radius: 4rem;
         border-radius: 4rem;
-        /* height: 410px; */
+        height:fit-content;
     }
 
     .pn_review_profile img {
@@ -175,7 +183,9 @@ button:hover{
     .pn_review_profile{
         padding-bottom: 19px;
     }
-
+    .button{
+       padding-top:30px;
+    }
     
 }
 </style>

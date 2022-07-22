@@ -1,7 +1,7 @@
 <template>
-    <div class="testimonials2">
+    <div class="testimonials">
 
-        <section class="pn_reviews mt-5 ">
+        <section class="pn_reviews mt-5">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
@@ -10,15 +10,26 @@
 
                     <div class="col-sm-12 col-lg-4">
                         <div class="pn_testimonial_box ">
-                            <p class="text-justify">What does Lorem Ipsum mean? Derived from Latin dolorem ipsum (“pain
-                                itself”), Lorem Ipsum is filler text used by publishers and graphic designers used to
-                                demonstrate graphic elements.
+                            <p class="text-justify">{{testimonial[3].text}}
                             </p>
 
-                            <div class="row pt-3">
+                            <div class="row pt-3 pb-2">
                                 <div class="col-sm-6 pn_review_profile"><img
-                                        src="https://desklib.com/static/src/assets/images/v2/profile_1.svg"
-                                        class="border-radius-12 float-right" alt="client image" /> <span> Charles Boyle
+                                        :src="testimonial[3].img "
+                                        class="border-radius-12 float-right" alt="client image" /> <span>{{testimonial[3].name}}
+                                    </span> </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-4 pt-1">
+                        <div class="pn_testimonial_box mt-4">
+                            <p class="text-justify">{{testimonial[4].text}}
+                            </p>
+                            <div class="row pt-3 pb-2">
+                                <div class="col-sm-6 pn_review_profile"><img
+                                        :src="testimonial[4].img "
+                                        class="border-radius-12 float-right" alt="client image" /> <span>{{testimonial[4].name}}
                                     </span> </div>
 
                             </div>
@@ -26,29 +37,12 @@
                     </div>
                     <div class="col-sm-12 col-lg-4">
                         <div class="pn_testimonial_box mt-4">
-                            <p class="text-justify">What does Lorem Ipsum mean? Derived from Latin dolorem ipsum (“pain
-                                itself”), Lorem Ipsum is filler text used by publishers and graphic designers used to
-                                demonstrate graphic elements.
+                            <p class="text-justify">{{testimonial[5].text}}
                             </p>
-                            <div class="row pt-3">
+                            <div class="row pt-3 pb-2">
                                 <div class="col-sm-6 pn_review_profile"><img
-                                        src="https://desklib.com/static/src/assets/images/v2/profile_2.svg"
-                                        class="border-radius-12 float-right" alt="client image" /> <span> Gina Lannety
-                                    </span> </div>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-lg-4">
-                        <div class="pn_testimonial_box mt-4">
-                            <p class="text-justify">What does Lorem Ipsum mean? Derived from Latin dolorem ipsum (“pain
-                                itself”), Lorem Ipsum is filler text used by publishers and graphic designers used to
-                                demonstrate graphic elements.
-                            </p>
-                            <div class="row pt-3">
-                                <div class="col-sm-6 pn_review_profile"><img
-                                        src="https://desklib.com/static/src/assets/images/v2/profile_3.svg"
-                                        class="border-radius-12 float-right" alt="client image" /> <span> Dug Judey
+                                        :src="testimonial[5].img "
+                                        class="border-radius-12 float-right" alt="client image" /> <span>{{testimonial[5].name}}
                                     </span> </div>
 
                             </div>
@@ -58,7 +52,10 @@
                 <br>
                 
             </div>
-                 <router-link to="testimonials"><button>Go Back</button></router-link>
+            <div class="button">
+                <router-link to="/testimonials"><button>View More</button></router-link>
+
+            </div>
         </section>
     </div>
 
@@ -66,14 +63,20 @@
 
 <script>
 export default {
+     computed:{
+        testimonial(){
+            return this.$store.state.testimonials
+        },
+        
 
+    }
 }
 </script>
 
 <style scoped>
-
 span{
 font-weight: bold;
+
 
 }
 button{
@@ -111,6 +114,8 @@ button:hover{
     -moz-border-radius: 4rem;
     -ms-border-radius: 4rem;
     border-radius: 4rem;
+     max-height: 350px;
+
 }
 
 .pn_testimonial_box:hover {
@@ -140,10 +145,11 @@ button:hover{
 @media (max-width: 321px) {
     span{
     padding-left: 35px;
+    padding-top: 12px;
 }
     .container {
         width: 250px;
-        margin-top: 900px;
+        margin-top: 680px;
 
     }
 
@@ -166,6 +172,7 @@ button:hover{
         -moz-border-radius: 4rem;
         -ms-border-radius: 4rem;
         border-radius: 4rem;
+        height:fit-content;
     }
 
     .pn_review_profile img {
@@ -175,7 +182,9 @@ button:hover{
     .pn_review_profile{
         padding-bottom: 19px;
     }
-
+    .button{
+       padding-top:30px;
+    }
     
 }
 </style>

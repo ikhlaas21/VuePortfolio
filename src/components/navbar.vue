@@ -10,19 +10,19 @@
 
         <div class="slide">
             <nav>
-                <router-link to="/">Home</router-link>
+                <router-link @click="handleEvent" to="/">Home</router-link>
                 <hr>
-                <router-link to="/about">About</router-link>
+                <router-link @click="handleEvent" to="/about">About</router-link>
                 <hr>
-                <router-link to="/resume">Resume</router-link>
+                <router-link @click="handleEvent" to="/resume">Resume</router-link>
                 <hr>
-                <router-link to="/skills">Skills</router-link>
+                <router-link @click="handleEvent" to="/skills">Skills</router-link>
                 <hr>
-                <router-link to="/testimonials">Testimonials</router-link>
+                <router-link @click="handleEvent" to="/testimonials">Testimonials</router-link>
                 <hr>
-                <router-link to="/projects">Projects</router-link>
+                <router-link @click="handleEvent" to="/projects">Projects</router-link>
                 <hr>
-                <router-link to="/contact">Contact</router-link>
+                <router-link @click="handleEvent" to="/contact">Contact</router-link>
                 <hr>
                 <div class="fff">
                     <Footer></Footer>
