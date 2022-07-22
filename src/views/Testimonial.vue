@@ -115,7 +115,7 @@ button:hover{
     -webkit-border-radius: 4rem;
     -moz-border-radius: 4rem;
     -ms-border-radius: 4rem;
-    border-radius: 4rem;
+    border-radius: 30px;
      max-height: 350px;
 
 }
@@ -172,7 +172,7 @@ button:hover{
         -webkit-border-radius: 4rem;
         -moz-border-radius: 4rem;
         -ms-border-radius: 4rem;
-        border-radius: 4rem;
+        border-radius:30px;
         height:fit-content;
     }
 

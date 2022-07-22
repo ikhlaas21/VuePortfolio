@@ -1,21 +1,21 @@
 <template>
     <div class="projects">
 
-       
         <body>
             <div class="container">
-                
-                    <div class="col-sm-4">
+               
+                                    
+                    <div class="col-sm-4 ">
                         <div class="card">
                             <div class="img-box">
                                 <img
-                                    src="https://images.unsplash.com/photo-1432251407527-504a6b4174a2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1400&q=80" />
+                                    src="https://i.postimg.cc/WzCdJgTg/calculator-2022-07-22-113319.jpg" />
                             </div>
                             <div class="content">
-                                <h2>Card One</h2>
-                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                                    tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
-                                    eos et accusam et justo duo dolores et ea rebum.</p>
+                                <h2>My Calculator</h2>
+                                <p>This Project is a functional calculator that I designed. It was Coded using HTML, CSS, JavaScript</p>
+                                <a href="https://github.com/ikhlaas21/WorkingCalculator"><i class="bi bi-github"></i></a>
+                                <a href="https://ikhlaascalculator.netlify.app"><i class="bi bi-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -23,13 +23,13 @@
                         <div class="card">
                             <div class="img-box">
                                 <img
-                                    src="https://images.unsplash.com/photo-1569776277464-9dc1113d1242?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1400&q=80" />
+                                    src="https://i.postimg.cc/qvZfTwBk/charizard.jpg" />
                             </div>
                             <div class="content">
-                                <h2>Card Two</h2>
-                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                                    tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
-                                    eos et accusam et justo duo dolores et ea rebum. </p>
+                                <h2>3D Printing</h2>
+                                <p>This image is of my 3D printed Charizard. I have recently started a 3D Printing business which is an ongoing Project. My plan is to create my own Website to list my products. </p>
+                                <a href="https://www.instagram.com/rnrcustom3dprints/"><i class="bi bi-instagram"></i></a>
+                                
                             </div>
                         </div>
                     </div>
@@ -37,24 +37,73 @@
                         <div class="card">
                             <div class="img-box">
                                 <img
-                                    src="https://images.unsplash.com/photo-1570030990547-f6b13f3062ff?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80" />
+                                    src="https://i.postimg.cc/X7hFkqT5/Screenshot-2022-07-22-115544.jpg" />
                             </div>
                             <div class="content">
-                                <h2>Card Three</h2>
-                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                                    tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
-                                    eos et accusam et justo duo dolores et ea rebum.</p>
+                                <h2>Properties</h2>
+                                <p>This Project is a property listing site. It was coded using HTML, CSS, Bootstrap, JavaScript</p>
+                                <a href="https://github.com/ikhlaas21/Properties"><i class="bi bi-github"></i></a>
+                                <a href="https://homify-ikhlaas.netlify.app"><i class="bi bi-link"></i></a>
                             </div>
                         </div>
-                    </div>
 
+            
 
-
-
-                
             </div>
+            </div>
+           <div class="container">
+               
+                                    
+                    <div class="col-sm-4 ">
+                        <div class="card">
+                            <div class="img-box">
+                                <img
+                                    src="https://i.postimg.cc/WzCdJgTg/calculator-2022-07-22-113319.jpg" />
+                            </div>
+                            <div class="content">
+                                <h2>My Calculator</h2>
+                                <p>This Project is a functional calculator that I designed. It was Coded using HTML, CSS, JavaScript</p>
+                                <a href="https://github.com/ikhlaas21/WorkingCalculator"><i class="bi bi-github"></i></a>
+                                <a href="https://ikhlaascalculator.netlify.app"><i class="bi bi-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <div class="img-box">
+                                <img
+                                    src="https://i.postimg.cc/qvZfTwBk/charizard.jpg" />
+                            </div>
+                            <div class="content">
+                                <h2>3D Printing</h2>
+                                <p>This image is of my 3D printed Charizard. I have recently started a 3D Printing business which is an ongoing Project. My plan is to create my own Website to list my products. </p>
+                                <a href="https://www.instagram.com/rnrcustom3dprints/"><i class="bi bi-instagram"></i></a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <div class="img-box">
+                                <img
+                                    src="https://i.postimg.cc/X7hFkqT5/Screenshot-2022-07-22-115544.jpg" />
+                            </div>
+                            <div class="content">
+                                <h2>Properties</h2>
+                                <p>This Project is a property listing site. It was coded using HTML, CSS, Bootstrap, JavaScript</p>
+                                <a href="https://github.com/ikhlaas21/Properties"><i class="bi bi-github"></i></a>
+                                <a href="https://homify-ikhlaas.netlify.app"><i class="bi bi-link"></i></a>
+                            </div>
+                        </div>
+
+            
+
+            </div>
+            </div>
+           
         </body>
     </div>
+
 
 </template>
 
@@ -67,6 +116,21 @@ export default {
 
 </script>
 <style scoped>
+/* .tap{
+    position: fixed;
+    top:80%;
+    left:50%;
+    width: 150px;
+    height: 100px;
+    background-color: blue;
+
+} */
+i{
+    font-size: 30px;
+    color:rgb(253, 216, 141)  ;
+    padding: 5px;
+}
+
 body {
     background-color: #2D3A3D;
     position: relative;
@@ -86,7 +150,7 @@ body {
     padding: 30px;
 }
 
- .card {
+.card {
     position: relative;
     background-color: maroon;
     margin: 30px 10px;
@@ -100,12 +164,13 @@ body {
 
 }
 
- .card:hover {
+.card:hover {
     height: 420px;
     cursor: pointer;
+    
 }
 
- .card .img-box {
+.card .img-box {
     position: relative;
     width: 260px;
     height: 260px;
@@ -115,13 +180,17 @@ body {
     z-index: 1;
 }
 
- .card .img-box img {
+.card .img-box img {
     width: 225px;
-    border-radius: 4px;
+    height: 225px;
+    scale: 1;
+    border-radius: 10px;
+    object-fit: cover;
+
 
 }
 
- .card .content {
+.card .content {
     position: relative;
     margin-top: -140px;
     padding: 10px 15px;
@@ -132,22 +201,26 @@ body {
     transition: 300ms ease-in-out;
 }
 
- .card:hover .content {
+.card:hover .content {
     visibility: visible;
     opacity: 1;
     margin-top: -60px;
     transition-delay: 300ms;
+    /* z-index: 50; */
 }
+
 @media (max-width: 321px) {
-    .col-sm-4{
-width: 540px;
-padding-left: 110px;
+    .col-sm-4 {
+        width: 540px;
+        padding-left: 110px;
 
     }
-    .container{
+
+    .container {
         margin-top: 480px;
     }
-    .card{
+
+    .card {
         min-width: 200px;
     }
 }

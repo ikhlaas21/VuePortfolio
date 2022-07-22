@@ -38,6 +38,7 @@ export default{
 *{
   margin: 0; 
   padding: 0;
+ 
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -57,6 +58,7 @@ export default{
      overflow-x: hidden;
   /* overflow-y: hidden; */
   z-index: 0;
+  border-radius: 0;
   
 }
 .icons{
@@ -85,9 +87,20 @@ export default{
    color: rgb(253, 216, 141) ;
   
 }
-.bi:hover{
-  color:black;
+.bi-linkedin:hover{
+  color:rgb(0,119,181);
 }
+.bi-instagram:hover{
+ color:magenta;
+}
+.bi-github:hover{
+  color:rgb(58, 159, 58);
+}
+.bi-twitter:hover{
+  color:rgb(33, 33, 126);
+}
+
+
 .move{
   display: flex;
   justify-content: flex-end;

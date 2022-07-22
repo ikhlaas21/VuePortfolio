@@ -179,7 +179,7 @@ p {
 	height: 14px;
 	background:rgb(253, 216, 141);
 	border: 1px solid maroon;
-	border-radius: 50%;
+	border-radius: 10px;
 	transition: .3s ease-in-out .3s;
 }
 

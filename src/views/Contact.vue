@@ -68,12 +68,12 @@
                                     <div class="row">
                                         <div class="col-lg-12 col-md-6 mt-2">
                                             <div class="form-group">
-                                                <input name="name" id="name" type="text" class="form-control border rounded" placeholder="First Name :">
+                                                <input name="name" id="name" type="text" class="form-control border rounded" placeholder="First Name :" required>
                                             </div>
                                         </div>
                                         <div class="col-lg-12 col-md-6 pt-2">
                                             <div class="form-group">
-                                                <input name="email" id="email" type="email" class="form-control border rounded" placeholder="Your email :">
+                                                <input name="email" id="email" type="email" class="form-control border rounded" placeholder="Your email :" required>
                                             </div> 
                                         </div>
                                        
@@ -88,7 +88,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-sm-12 text-center pt-3 pb-2">
-                                    <input type="submit" id="submit" name="send" class="submitBnt btn btn btn-light rounded" value="Send Message"> 
+                                    <input type="submit" id="submit" name="send" class="submitBnt btn btn btn-light rounded" value="Send Message" required> 
                                 </div>
                             </div>
                         </form>
@@ -116,7 +116,7 @@ export default {
 #contact{
     background-color: maroon;
     border: solid 5px maroon;
-    border-radius: 20px;
+    border-radius: 10px;
   
 
 }
