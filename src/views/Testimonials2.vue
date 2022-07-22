@@ -53,7 +53,7 @@
                 
             </div>
             <div class="button">
-                <router-link to="/testimonials"><button>View More</button></router-link>
+                <router-link to="/testimonials"><button>Go Back</button></router-link>
 
             </div>
         </section>

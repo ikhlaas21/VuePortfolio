@@ -2,7 +2,7 @@
     <div class="projects">
 
         <body>
-            <div class="container">
+            <div id="con1" class="container">
                
                                     
                     <div class="col-sm-4 ">
@@ -51,7 +51,7 @@
 
             </div>
             </div>
-           <div class="container">
+           <div id="con2" class="container">
                
                                     
                     <div class="col-sm-4 ">
@@ -139,7 +139,6 @@ body {
     align-items: center;
     padding-top: 50px;
 }
-
 .container {
     position: relative;
     width: 1000px;
@@ -148,7 +147,21 @@ body {
     align-items: center;
     flex-wrap: wrap;
     padding: 30px;
+   
 }
+ #con1 {
+   
+    margin-top: 50px;
+}
+/* .con2 {
+   
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* padding-top: -500px;
+} */
 
 .card {
     position: relative;
@@ -156,17 +169,21 @@ body {
     margin: 30px 10px;
     padding: 20px 15px;
     max-width: 300px;
-    height: 215px;
+    height: 240px;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
 
     transition: 300ms ease-in-out;
 
 }
 
 .card:hover {
-    height: 420px;
+    /* height: 420px; */
     cursor: pointer;
+   background-color:rgba(128, 0, 0, 0.438);
+   
+ 
     
 }
 
@@ -178,6 +195,13 @@ body {
     left: 20px;
 
     z-index: 1;
+}
+img{
+    transition: 300ms ease-in-out;
+}
+img:hover{
+    opacity: 0;
+
 }
 
 .card .img-box img {
@@ -192,7 +216,7 @@ body {
 
 .card .content {
     position: relative;
-    margin-top: -140px;
+    margin-top: -240px;
     padding: 10px 15px;
     text-align: center;
     color: rgb(253, 216, 141);
@@ -204,7 +228,7 @@ body {
 .card:hover .content {
     visibility: visible;
     opacity: 1;
-    margin-top: -60px;
+    /* padding-bottom: 560px; */
     transition-delay: 300ms;
     /* z-index: 50; */
 }
@@ -216,8 +240,8 @@ body {
 
     }
 
-    .container {
-        margin-top: 480px;
+    #con1 {
+        margin-top:1500px;
     }
 
     .card {
