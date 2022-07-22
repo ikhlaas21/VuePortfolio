@@ -34,6 +34,7 @@ export default {
 <style scoped>
 *{
   z-index: -3;
+   
   }
 
 h1{
@@ -73,6 +74,8 @@ a.typewrite{
   
   
 }
+
+
 </style>
 
 

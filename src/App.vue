@@ -102,7 +102,9 @@ export default{
     bottom: 2px;
   }
   .icons{
-height: 200px;
+height: 130px;
+width: 50px;
+font-size: 18px;
   }
   
 }

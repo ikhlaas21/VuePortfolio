@@ -1,7 +1,7 @@
 <template>
-    <div class="testimonials">
+    <div class="testimonials2">
 
-        <section class="pn_reviews mt-5">
+        <section class="pn_reviews mt-5 ">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
@@ -10,30 +10,15 @@
 
                     <div class="col-sm-12 col-lg-4">
                         <div class="pn_testimonial_box ">
-                            <p class="text-justify">Ikhlaas is one of the brightest and most generous people I know.
-                               <br> He is able to take the lead when necassary and
-                                 is also very considerate towards others in the workspace.
+                            <p class="text-justify">What does Lorem Ipsum mean? Derived from Latin dolorem ipsum (“pain
+                                itself”), Lorem Ipsum is filler text used by publishers and graphic designers used to
+                                demonstrate graphic elements.
                             </p>
 
                             <div class="row pt-3">
                                 <div class="col-sm-6 pn_review_profile"><img
                                         src="https://desklib.com/static/src/assets/images/v2/profile_1.svg"
-                                        class="border-radius-12 float-right" alt="client image" /> <span> Charles
-                                    </span> </div>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-lg-4 pt-1">
-                        <div class="pn_testimonial_box mt-4">
-                            <p class="text-justify">Ikhlaas has a passion for web development. 
-                                You can see it in his websites, they are alive and interactive. He is always ready to help at a moments notice and
-                                 any team would be lucky to have him.
-                            </p>
-                            <div class="row pt-3">
-                                <div class="col-sm-6 pn_review_profile"><img
-                                        src="https://desklib.com/static/src/assets/images/v2/profile_2.svg"
-                                        class="border-radius-12 float-right" alt="client image" /> <span>Ra'ees Benny
+                                        class="border-radius-12 float-right" alt="client image" /> <span> Charles Boyle
                                     </span> </div>
 
                             </div>
@@ -41,13 +26,29 @@
                     </div>
                     <div class="col-sm-12 col-lg-4">
                         <div class="pn_testimonial_box mt-4">
-                            <p class="text-justify">Ikhlaas Rawoot is an outstanding person let alone aspiring web developer. 
-                                He works hard and he would be a great asset to anyone. He also has a great personality as well as great teamwork ability.
+                            <p class="text-justify">What does Lorem Ipsum mean? Derived from Latin dolorem ipsum (“pain
+                                itself”), Lorem Ipsum is filler text used by publishers and graphic designers used to
+                                demonstrate graphic elements.
+                            </p>
+                            <div class="row pt-3">
+                                <div class="col-sm-6 pn_review_profile"><img
+                                        src="https://desklib.com/static/src/assets/images/v2/profile_2.svg"
+                                        class="border-radius-12 float-right" alt="client image" /> <span> Gina Lannety
+                                    </span> </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-4">
+                        <div class="pn_testimonial_box mt-4">
+                            <p class="text-justify">What does Lorem Ipsum mean? Derived from Latin dolorem ipsum (“pain
+                                itself”), Lorem Ipsum is filler text used by publishers and graphic designers used to
+                                demonstrate graphic elements.
                             </p>
                             <div class="row pt-3">
                                 <div class="col-sm-6 pn_review_profile"><img
                                         src="https://desklib.com/static/src/assets/images/v2/profile_3.svg"
-                                        class="border-radius-12 float-right" alt="client image" /> <span>Cameron Stemmet
+                                        class="border-radius-12 float-right" alt="client image" /> <span> Dug Judey
                                     </span> </div>
 
                             </div>
@@ -57,7 +58,7 @@
                 <br>
                 
             </div>
-                 <router-link to="/testimonial2"><button>View More</button></router-link>
+                 <router-link to="testimonials"><button>Go Back</button></router-link>
         </section>
     </div>
 
@@ -70,6 +71,7 @@ export default {
 </script>
 
 <style scoped>
+
 span{
 font-weight: bold;
 
@@ -109,7 +111,6 @@ button:hover{
     -moz-border-radius: 4rem;
     -ms-border-radius: 4rem;
     border-radius: 4rem;
-
 }
 
 .pn_testimonial_box:hover {
@@ -142,7 +143,7 @@ button:hover{
 }
     .container {
         width: 250px;
-        margin-top: 880px;
+        margin-top: 900px;
 
     }
 
@@ -165,7 +166,6 @@ button:hover{
         -moz-border-radius: 4rem;
         -ms-border-radius: 4rem;
         border-radius: 4rem;
-        /* height: 410px; */
     }
 
     .pn_review_profile img {

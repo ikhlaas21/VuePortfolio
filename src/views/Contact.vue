@@ -107,11 +107,11 @@ export default {
 </script>
 
 <style scoped>
-*{
-    z-index: -3;
-}
+/* *{
+    z-index: 50;
+} */
 .container{
-    width: 800px
+    width: 700px
 }
 #contact{
     background-color: maroon;
@@ -138,5 +138,15 @@ input{
     color: black;
     background-color: blanchedalmond
 }
-
+@media (max-width: 321px) {
+    .container{
+        width: 280px;
+       
+    }
+    #contact{
+        margin-top: 400px;
+        margin-bottom: 10px;
+        padding: -50px;
+    }
+}
 </style>

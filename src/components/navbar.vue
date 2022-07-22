@@ -20,7 +20,7 @@
                 <hr>
                 <router-link to="/testimonials">Testimonials</router-link>
                 <hr>
-                <router-link to="/">Projects</router-link>
+                <router-link to="/projects">Projects</router-link>
                 <hr>
                 <router-link to="/contact">Contact</router-link>
                 <hr>
@@ -87,11 +87,11 @@ export default {
 }
 
 .slide{
-    position: relative;
+    position: fixed;
 }
 .slide::after{
     content: '';
-    position: absolute;
+    position: fixed;
     z-index: 1;
 }
 
@@ -153,6 +153,7 @@ main {
     height: 100%;
     display: grid;
     place-content: center;
+    /* position: sticky; */
 }
 
 .route-enter-from {
@@ -184,7 +185,7 @@ visibility: hidden ;
 -webkit-appearance: none;
 }
 .toggle{
-    position: absolute;
+    position: fixed;
     height:30px;
     width: 30px;
     top: 15px;
