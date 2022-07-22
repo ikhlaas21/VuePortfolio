@@ -131,6 +131,19 @@ button:hover{
      background-color: rgb(253, 216, 141);
      transform: translateX(10px);
 }
-/* vue transition */
+@media (max-width: 321px) {
+    .container{
+        width: 280px;
+        padding-bottom: 20px;
+        margin-top: 800px;
+       
+    }
+    .soft{
+         padding-bottom: 30px;
+    }
+    img{
+      object-fit: cover;
+    }
+}
 
 </style>

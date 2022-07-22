@@ -118,4 +118,19 @@ h5:hover {
     background-color: rgb(253, 216, 141);
     transform: translateX(10px);
 }
+@media (max-width: 321px) {
+    .container{
+        
+        padding-bottom: 20px;
+        margin-top: 1200px;
+        
+       
+    }}
+    .card{
+        width: 270px;
+        margin-left: 15px;
+    }
+    button{
+        margin-left: 30px;
+    }
 </style>
