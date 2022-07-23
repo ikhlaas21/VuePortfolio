@@ -20,4 +20,9 @@ export default {
     padding-top: 120px;
   
 }
+@media  (max-width:426px){
+  .Footer{
+    padding-top: 20px;
+  }
+}
 </style>

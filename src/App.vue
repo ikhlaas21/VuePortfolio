@@ -121,6 +121,17 @@ font-size: 18px;
   }
   
 }
+@media  (max-width:426px){
+  .move{
+    bottom: 2px;
+  }
+  .icons{
+height: 130px;
+width: 50px;
+font-size: 18px;
+  }
+  
+}
 
 /* :root{
   --background-color: #fffaff;

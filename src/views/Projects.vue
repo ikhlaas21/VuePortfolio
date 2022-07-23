@@ -248,4 +248,19 @@ img:hover{
         min-width: 200px;
     }
 }
+@media (max-width: 426px) {
+    .col-sm-4 {
+        width: 540px;
+        padding-left: 110px;
+
+    }
+
+    #con1 {
+        margin-top:1500px;
+    }
+
+    .card {
+        min-width: 200px;
+    }
+}
 </style>

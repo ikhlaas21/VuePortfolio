@@ -187,4 +187,48 @@ button:hover{
     }
     
 }
+@media (max-width: 426px) {
+    span{
+    padding-left: 35px;
+}
+    .container {
+        width: 250px;
+        margin-top: 850px;
+
+    }
+
+    /*---------- testimonial css start ----------*/
+    .pn_reviews {
+        padding: 3rem 0;
+    }
+
+    .pn_reviews h1 {
+        font-size: 2rem;
+        padding-bottom: 1rem !important;
+    }
+
+    .pn_testimonial_box {
+        padding: 2rem;
+        margin: 1rem;
+        border: 5px solid maroon;
+        position: relative;
+        -webkit-border-radius: 4rem;
+        -moz-border-radius: 4rem;
+        -ms-border-radius: 4rem;
+        border-radius:30px;
+        height:fit-content;
+    }
+
+    .pn_review_profile img {
+        position: absolute;
+        margin: -1.1rem -3rem 0;
+    }
+    .pn_review_profile{
+        padding-bottom: 19px;
+    }
+    .button{
+       padding-top:30px;
+    }
+    
+}
 </style>

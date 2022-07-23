@@ -149,4 +149,15 @@ input{
         padding: -50px;
     }
 }
+@media (max-width: 426px) {
+    .container{
+        width: 280px;
+       
+    }
+    #contact{
+        margin-top: 400px;
+        margin-bottom: 10px;
+        padding: -50px;
+    }
+}
 </style>

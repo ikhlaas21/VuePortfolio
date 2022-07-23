@@ -117,5 +117,19 @@ h1{
       margin-top: 30px;
     }
 }
+@media (max-width: 426px) {
+    .container{
+        width: 280px;
+        /* height: fit-content; */
+        margin-left: 10px;
+       
+    }
+    .card{
+      height: fit-content;
+    }
+    h1{
+      margin-top: 30px;
+    }
+}
 
 </style>

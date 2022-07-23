@@ -145,5 +145,19 @@ button:hover{
       object-fit: cover;
     }
 }
+@media (max-width: 426px) {
+    .container{
+        width: 280px;
+        padding-bottom: 20px;
+        margin-top: 800px;
+       
+    }
+    .soft{
+         padding-bottom: 30px;
+    }
+    img{
+      object-fit: cover;
+    }
+}
 
 </style>

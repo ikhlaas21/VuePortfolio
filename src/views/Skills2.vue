@@ -133,4 +133,19 @@ h5:hover {
     button{
         margin-left: 30px;
     }
+@media (max-width: 426px) {
+    .container{
+        
+        padding-bottom: 20px;
+        margin-top: 1200px;
+        
+       
+    }}
+    .card{
+        width: 270px;
+        margin-left: 15px;
+    }
+    button{
+        margin-left: 30px;
+    }
 </style>
