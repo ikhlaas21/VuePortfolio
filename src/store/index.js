@@ -10,8 +10,13 @@ export default createStore({
 ],
     education:[
       {
+        title:"-Grizzly New Marketing(Amsterdam)",
+        text:"Certification in SEO, Worked with WordPress(Divi) - 2022",
+        
+      },
+      {
         title:"-Life Choices Academy",
-        text:" Currently studying Web Development - 2022",
+        text:"Graduated from the academy and Achieved a Certificate in Web Development - March 2022 to September 2022",
         
       },
       {
@@ -19,6 +24,7 @@ export default createStore({
         text:"Attended Livingstone for 5 years where I acquired my Matric Certificate - 2016 to 2020",
         
       },
+     
       
 
     ],

@@ -27,6 +27,10 @@
     
         <h5>{{education[1].title}}</h5>
         {{education[1].text}}
+        <hr>
+    
+    <h5>{{education[2].title}}</h5>
+    {{education[2].text}}
             
 	</div>
 </div>
@@ -110,7 +114,7 @@ p {
 	flex-wrap: nowrap;
 	justify-content: space-between;
 	width: 85vmin;
-	height: 26em;
+	height: 32em;
 	border: 8px solid maroon;
     
 	/* border-image: linear-gradient(-50deg,maroon, rgb(253, 216, 141), maroon,rgb(253, 216, 141), maroon,rgb(253, 216, 141),maroon) 1; */
@@ -133,6 +137,7 @@ p {
 }
 .overlay-content {
 	display: flex;
+  border-radius: 10px;
 	flex-direction: column;
 	justify-content: space-between;
 	width: 15vmin;
@@ -159,6 +164,7 @@ p {
 	background-size: cover;
 	transition: .3s ease-in-out;
     z-index: -5;
+    border-radius: 10px;
 	/* border: 1px solid green; */
 }
 
