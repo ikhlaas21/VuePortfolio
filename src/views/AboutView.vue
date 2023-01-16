@@ -21,7 +21,7 @@
               <ul id="aboutlist">
                 <li><b>Full name:</b> Ikhlaas Ahmed Rawoot</li>
                 <li><b>Date of birth:</b> 21/08/2002</li>
-                <li><b>Gender:</b> Gender: Male</li>
+                <li><b>Gender:</b> Male</li>
                 <li><b>Location:</b> Grassy Park</li>
                 <li><b>Cell Phone number:</b> 072 086 1768</li>
                 <li><b>Email Address:</b> ikhlaas21.rawoot@gmail.com</li>
@@ -34,14 +34,14 @@
         <div class="card">
           <!-- <img src="..." class="card-img-top" alt="..."> -->
           <div class="card-body">
-            <h5 class="card-title"> <a href="" style="color: maroon ;" class="typewrite" data-period="2000"
-                data-type='[ "Bio" ]' />
+            <h5  class="card-title" style="color: maroon;"> Bio<a href="" style="color: maroon ;"/>
               <span class="wrap"></span>
               </h5>
               
             <p class="card-text pt-1">I enjoy the company of others and have excellent teamwork skills. Although I am a team
               player, I also have the ability to take the lead when necessary. I see failure as a lesson learnt and
-              never shy from trying again. I would like to think that I am resilient and hardworking. I am extremely
+              never shy from trying again. I would like to think that I am resilient and hardworking.
+              <br> I am extremely
               passionate about modern technology and have recently started a 3D printing business with my brother. In 3D
               printing, there is a lot of trial and error. In order to be successful in this field, one needs to be
               patient and show perseverance.</p>
@@ -65,13 +65,14 @@ h1{
 }
 #aboutlist {
     list-style: none;
+    font-size: 19px;
     
 }
 #aboutcard{
  
   height: 35vh;
   display: flex;
-  width: 800px;
+  width: 900px;
   display: flex;
  
 }
@@ -84,13 +85,19 @@ h1{
 .card{
   background-color:rgb(253, 216, 141);
   border: solid 3px maroon;
-  height: 330px;
+  min-height: 330px;
 }
 .card-text{
    padding:10px;
-   font-size: 17px;
+   font-size: 19px;
    
 
+
+}
+
+
+.card-title{
+  font-weight: bold;
 }
 .card-body{
   padding: 10px;
