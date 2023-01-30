@@ -97,11 +97,12 @@ button:hover{
      transform: translateX(10px);
 }
 .container {
-    width: 900px;
+    width: 1200px;
     margin-top: -50px;
 }
 
 .pn_testimonial_box {
+    font-size: 19px;
     font-weight: 300;
     padding: 2rem;
     margin: 2rem;
@@ -113,8 +114,8 @@ button:hover{
     -webkit-border-radius: 4rem;
     -moz-border-radius: 4rem;
     -ms-border-radius: 4rem;
-    border-radius: 4rem;
-     max-height: 350px;
+    border-radius: 30px;
+     max-height: 400px;
 
 }
 
@@ -164,6 +165,7 @@ button:hover{
     }
 
     .pn_testimonial_box {
+       
         padding: 2rem;
         margin: 1rem;
         border: 5px solid maroon;
@@ -187,6 +189,11 @@ button:hover{
     }
     
 }
+@media(max-width:400px){
+    .text-justify{
+        font-size: 15px;
+    }
+}
 @media (max-width: 426px) {
     span{
     padding-left: 35px;
@@ -208,6 +215,7 @@ button:hover{
     }
 
     .pn_testimonial_box {
+      
         padding: 2rem;
         margin: 1rem;
         border: 5px solid maroon;
